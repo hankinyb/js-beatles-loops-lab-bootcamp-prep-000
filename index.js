@@ -25,7 +25,7 @@ function iLoveTheBeatles() {
   }
   while (i < 17);
   
-  do {("I love the Beatles!");
+  do {"I love the Beatles!";
   }
   while (i > 17);
   
