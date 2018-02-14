@@ -11,9 +11,11 @@ function johnLennonFacts(facts) {
         "He was never a vegetarian",
         "He was a choir boy and boy scout",
         "He hated the sound of his own voice"];
-  while (shout < 4) {
-    shout++;
-    return facts[shout] + "!!!";
+  var shout = [];
+  var i = 0;
+  while (i < 4) {
+    i++;
+    shout.push(facts[i] + "!!!");
   }    
-  
+  return shout;
 }
